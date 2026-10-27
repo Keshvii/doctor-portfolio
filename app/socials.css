@@ -1,0 +1,10 @@
+.profile-socials{margin-top:26px;display:grid;gap:10px}
+.socials-heading{font-size:9px;letter-spacing:.15em;font-weight:700;color:var(--accent)}
+.socials-list{display:flex;flex-wrap:wrap;gap:8px}
+.socials-list>a,.social-pending{display:inline-flex;align-items:center;gap:8px;min-height:34px;padding:7px 11px;border:1px solid var(--line);font-size:11px;font-weight:600;color:var(--ink)}
+.socials-list>a:hover{border-color:var(--accent);color:var(--accent)}
+.social-pending{color:var(--muted)}
+.social-pending small{font-size:9px;font-weight:400}
+.youtube-source-note{margin:22px 0 8px;padding:14px 16px;border:1px solid var(--line);font-size:11px;line-height:1.65;color:var(--muted)}
+.youtube-source-note>a{display:inline-flex;align-items:center;gap:5px;margin-left:5px;color:var(--accent);font-weight:700}
+.youtube-source-note>a:hover{text-decoration:underline;text-underline-offset:3px}

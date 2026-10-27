@@ -1,0 +1,11 @@
+/* Demo 2: keep the supplied white-background portrait neutral and fully framed. */
+.hero-two-image{isolation:isolate;align-items:end}
+.hero-two-image:before{background:#e8eee9;border:1px solid #d3ded6}
+.hero-two-image>img{width:100%;height:100%;object-fit:contain;object-position:center bottom;mix-blend-mode:normal}
+.hero-two-image-caption{bottom:18px;right:7%;max-width:80%;text-align:center}
+.socials-2 .social-pending{color:#51434a}
+.youtube-source-note{background:#fffdfb}
+.teaching-2 .youtube-source-note{color:#fff7f2;border-color:#ffffff66;background:#54263a}
+.teaching-2 .youtube-source-note>a{color:#ffd29a}
+@media(max-width:800px){.hero-two-main{grid-template-columns:1fr;min-height:0;gap:0}.hero-two-image{width:min(88%,380px);height:380px;margin:0 auto}.hero-two-image-caption{right:5%;bottom:12px;width:min(80%,260px)}}
+@media(max-width:600px){.hero-two-image{width:min(92vw,330px);height:min(92vw,330px)}}

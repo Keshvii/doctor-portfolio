@@ -1,0 +1,1 @@
+.real-book-cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.book-cover:has(.real-book-cover)>span,.book-cover:has(.real-book-cover)>svg,.book-cover:has(.real-book-cover)>strong,.book-cover:has(.real-book-cover)>small{display:none}

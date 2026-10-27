@@ -1,0 +1,628 @@
+{
+  "site": {
+    "name": "Dr. Ananya Mehra",
+    "tagline": "Where Medicine Meets the Art of Teaching",
+    "description": "An academic portfolio showcasing medical education, teaching, research, books and professional achievements.",
+    "isDemo": true,
+    "demoNotice": "This is a fictional portfolio created for website design demonstration purposes.",
+    "language": "en-IN",
+    "country": "India"
+  },
+  "profile": {
+    "id": "dr-ananya-mehra",
+    "name": "Dr. Ananya Mehra",
+    "qualifications": [
+      "MBBS",
+      "MD (Physiology)"
+    ],
+    "designation": "Professor of Physiology",
+    "professionalTitles": [
+      "Medical Educator",
+      "Professor",
+      "Researcher",
+      "Author",
+      "Digital Learning Advocate"
+    ],
+    "institution": "Meridian Medical Institute",
+    "location": "New Delhi, India",
+    "experienceYears": 16,
+    "heroHeadline": "Advancing Medical Knowledge. Inspiring Future Healthcare Professionals.",
+    "heroAlternative": "Making Medical Education Clear, Practical and Accessible.",
+    "heroEditorial": "Where Medicine Meets the Art of Teaching.",
+    "shortBio": "Dr. Ananya Mehra is a fictional medical educator and professor of physiology dedicated to making complex medical concepts accessible through engaging lectures, research and academic publications.",
+    "fullBio": [
+      "Dr. Ananya Mehra is an academic medical educator with over 16 years of experience in physiology education, curriculum development and medical research.",
+      "Her academic interests include cardiovascular physiology, neurophysiology, clinical reasoning and innovative approaches to undergraduate medical education.",
+      "Through structured classroom teaching, visual learning resources and digital lectures, she works to connect fundamental scientific principles with practical clinical understanding.",
+      "Her academic contributions include authored textbooks, research publications, conference presentations and mentoring medical students."
+    ],
+    "personalStatement": "The true purpose of education is not simply to share knowledge, but to inspire the curiosity to discover more.",
+    "mission": "To make medical education accessible, concept-driven and relevant to real-world healthcare.",
+    "vision": "To inspire a generation of healthcare professionals who combine scientific knowledge with curiosity, critical thinking and compassion.",
+    "profileImage": "/images/doctor/ananya-mehra-cutout.png",
+    "heroImage": "/images/doctor/ananya-mehra-cutout.png",
+    "socialLinks": {
+      "youtube": "https://www.youtube.com/@stanford",
+      "instagram": null,
+      "twitter": null,
+      "youtubeLabel": "YouTube · Stanford sample"
+    },
+    "cvUrl": null
+  },
+  "statistics": [
+    {
+      "id": "experience",
+      "value": 16,
+      "suffix": "+",
+      "label": "Years of Experience"
+    },
+    {
+      "id": "lectures",
+      "value": 120,
+      "suffix": "+",
+      "label": "Educational Videos"
+    },
+    {
+      "id": "books",
+      "value": 4,
+      "suffix": "",
+      "label": "Authored Books"
+    },
+    {
+      "id": "publications",
+      "value": 28,
+      "suffix": "",
+      "label": "Research Publications"
+    },
+    {
+      "id": "playlists",
+      "value": 4,
+      "suffix": "",
+      "label": "Featured Lecture Series"
+    }
+  ],
+  "education": [
+    {
+      "id": "mbbs",
+      "degree": "Bachelor of Medicine and Bachelor of Surgery",
+      "abbreviation": "MBBS",
+      "institution": "North Valley Medical College",
+      "year": 2004,
+      "description": "Foundation in medical sciences, clinical medicine and patient-centered healthcare."
+    },
+    {
+      "id": "md",
+      "degree": "Doctor of Medicine in Physiology",
+      "abbreviation": "MD (Physiology)",
+      "institution": "Meridian Institute of Medical Sciences",
+      "year": 2008,
+      "description": "Postgraduate specialization in human physiology, research methodology and medical education."
+    }
+  ],
+  "experience": [
+    {
+      "id": "professor",
+      "role": "Professor of Physiology",
+      "institution": "Meridian Medical Institute",
+      "startYear": 2019,
+      "endYear": null,
+      "current": true,
+      "description": "Teaching undergraduate medical students, guiding research and contributing to curriculum development."
+    },
+    {
+      "id": "associate-professor",
+      "role": "Associate Professor of Physiology",
+      "institution": "Meridian Medical Institute",
+      "startYear": 2013,
+      "endYear": 2019,
+      "current": false,
+      "description": "Led interactive teaching initiatives, academic mentoring and departmental research activities."
+    },
+    {
+      "id": "assistant-professor",
+      "role": "Assistant Professor of Physiology",
+      "institution": "North Valley Medical College",
+      "startYear": 2009,
+      "endYear": 2013,
+      "current": false,
+      "description": "Conducted lectures, practical demonstrations, tutorials and undergraduate assessments."
+    }
+  ],
+  "expertise": [
+    {
+      "id": "human-physiology",
+      "title": "Human Physiology",
+      "description": "Understanding the functions and regulatory mechanisms of the human body.",
+      "icon": "activity"
+    },
+    {
+      "id": "cardiovascular",
+      "title": "Cardiovascular Physiology",
+      "description": "Cardiac function, circulation, hemodynamics and blood pressure regulation.",
+      "icon": "heart-pulse"
+    },
+    {
+      "id": "neurophysiology",
+      "title": "Neurophysiology",
+      "description": "Neural signaling, reflex pathways, sensory processing and motor systems.",
+      "icon": "brain"
+    },
+    {
+      "id": "clinical-physiology",
+      "title": "Clinical Physiology",
+      "description": "Applying physiological concepts to clinical cases and medical reasoning.",
+      "icon": "stethoscope"
+    },
+    {
+      "id": "medical-education",
+      "title": "Medical Education",
+      "description": "Curriculum development, interactive learning and student assessment.",
+      "icon": "graduation-cap"
+    },
+    {
+      "id": "digital-learning",
+      "title": "Digital Learning",
+      "description": "Educational videos, visual teaching and technology-supported learning.",
+      "icon": "monitor-play"
+    }
+  ],
+  "teaching": {
+    "title": "Learn Physiology with Dr. Ananya Mehra",
+    "description": "Browse sample public playlists and videos from Stanford’s YouTube channel. Select a video to load it here, or play a whole playlist in the embedded player.",
+    "initiativeName": "Physiology Simplified",
+    "initiativeYear": 2022,
+    "youtubeChannelUrl": null,
+    "playlists": [
+      {
+        "id": "department-epidemiology-population-health",
+        "title": "Department of Epidemiology & Population Health",
+        "slug": "department-epidemiology-population-health",
+        "category": "Epidemiology & Population Health",
+        "level": "Public playlist",
+        "lessonCount": 3,
+        "description": "Monthly faculty, trainee and staff spotlights from Stanford’s Department of Epidemiology & Population Health.",
+        "thumbnail": "",
+        "youtubePlaylistId": "PLpGHT1n4-mAvo-5n-gZPElUS3ogrdaEY7",
+        "youtubeUrl": "https://www.youtube.com/playlist?list=PLpGHT1n4-mAvo-5n-gZPElUS3ogrdaEY7",
+        "featured": true
+      },
+      {
+        "id": "research-matters",
+        "title": "Research Matters",
+        "slug": "research-matters",
+        "category": "Research & Health",
+        "level": "Public playlist",
+        "lessonCount": 24,
+        "description": "Stanford research stories, including public health, food allergy and medical AI.",
+        "thumbnail": "",
+        "youtubePlaylistId": "PLpGHT1n4-mAvp_PiHz0zH1uKStU29RkBM",
+        "youtubeUrl": "https://www.youtube.com/playlist?list=PLpGHT1n4-mAvp_PiHz0zH1uKStU29RkBM",
+        "featured": true
+      },
+      {
+        "id": "stanford-courses",
+        "title": "Courses",
+        "slug": "stanford-courses",
+        "category": "Courses",
+        "level": "Public playlist",
+        "lessonCount": 24,
+        "description": "A cross-disciplinary collection of short Stanford course stories and learning resources.",
+        "thumbnail": "",
+        "youtubePlaylistId": "PLpGHT1n4-mAvYhfhIYhs4OAmDrTmzynD3",
+        "youtubeUrl": "https://www.youtube.com/playlist?list=PLpGHT1n4-mAvYhfhIYhs4OAmDrTmzynD3",
+        "featured": true
+      },
+      {
+        "id": "expert-tips-behavior-change",
+        "title": "Expert Tips for Behavior Change",
+        "slug": "expert-tips-behavior-change",
+        "category": "Behavior Change",
+        "level": "Public playlist",
+        "lessonCount": 5,
+        "description": "Stanford scholars share research-backed perspectives on habits and behavior change.",
+        "thumbnail": "",
+        "youtubePlaylistId": "PLpGHT1n4-mAt4d5DLFiFatW9ZYvWtW9sZ",
+        "youtubeUrl": "https://www.youtube.com/playlist?list=PLpGHT1n4-mAt4d5DLFiFatW9ZYvWtW9sZ",
+        "featured": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "jade-benjamin-chung-spotlight",
+        "title": "Jade Benjamin-Chung E&PH Spotlight Video, August 2021",
+        "slug": "jade-benjamin-chung-eph-spotlight",
+        "category": "Epidemiology & Population Health",
+        "playlistId": "department-epidemiology-population-health",
+        "duration": "1:14",
+        "description": "A Stanford Department of Epidemiology & Population Health faculty spotlight.",
+        "thumbnail": "",
+        "youtubeVideoId": "AlRPBHXAb-s",
+        "youtubeUrl": "https://www.youtube.com/watch?v=AlRPBHXAb-s",
+        "featured": true
+      },
+      {
+        "id": "alyce-adams-spotlight",
+        "title": "Alyce S. Adams E&PH Spotlight Video, May 2021",
+        "slug": "alyce-adams-eph-spotlight",
+        "category": "Epidemiology & Population Health",
+        "playlistId": "department-epidemiology-population-health",
+        "duration": "1:28",
+        "description": "A Stanford Department of Epidemiology & Population Health faculty spotlight.",
+        "thumbnail": "",
+        "youtubeVideoId": "H0xRE_zgxBs",
+        "youtubeUrl": "https://www.youtube.com/watch?v=H0xRE_zgxBs",
+        "featured": true
+      },
+      {
+        "id": "mike-baiocchi-origin-story",
+        "title": "Origin Story, Mike Baiocchi E&PH Spotlight",
+        "slug": "mike-baiocchi-eph-spotlight",
+        "category": "Epidemiology & Population Health",
+        "playlistId": "department-epidemiology-population-health",
+        "duration": "1:17",
+        "description": "A Stanford Department of Epidemiology & Population Health faculty spotlight.",
+        "thumbnail": "",
+        "youtubeVideoId": "LevLtASiDO4",
+        "youtubeUrl": "https://www.youtube.com/watch?v=LevLtASiDO4",
+        "featured": true
+      },
+      {
+        "id": "research-medical-ai",
+        "title": "Academic institutions are where most of the progress will be made in medical AI",
+        "slug": "research-matters-medical-ai",
+        "category": "Research & Health",
+        "playlistId": "research-matters",
+        "duration": "Short",
+        "description": "A Stanford Research Matters short on academic institutions and medical AI.",
+        "thumbnail": "",
+        "youtubeVideoId": "NR5-LzIrinE",
+        "youtubeUrl": "https://www.youtube.com/shorts/NR5-LzIrinE",
+        "featured": true
+      },
+      {
+        "id": "research-food-allergy",
+        "title": "Living with food allergy has a bigger quality-of-life toll than we realize",
+        "slug": "research-matters-food-allergy",
+        "category": "Research & Health",
+        "playlistId": "research-matters",
+        "duration": "Short",
+        "description": "A Stanford Research Matters short about the quality-of-life impact of food allergy.",
+        "thumbnail": "",
+        "youtubeVideoId": "OopUkX2AFAk",
+        "youtubeUrl": "https://www.youtube.com/shorts/OopUkX2AFAk",
+        "featured": true
+      },
+      {
+        "id": "bread-medicine",
+        "title": "Bread + Medicine: Saving Lives In A Time Of Famine",
+        "slug": "bread-and-medicine-saving-lives",
+        "category": "Courses",
+        "playlistId": "stanford-courses",
+        "duration": "3:20",
+        "description": "A Stanford course playlist video about medicine during famine.",
+        "thumbnail": "",
+        "youtubeVideoId": "kAweUwARDsc",
+        "youtubeUrl": "https://www.youtube.com/watch?v=kAweUwARDsc",
+        "featured": true
+      },
+      {
+        "id": "design-inspired-life-decisions",
+        "title": "Three design-inspired tools for making big life decisions",
+        "slug": "design-inspired-tools-life-decisions",
+        "category": "Behavior Change",
+        "playlistId": "expert-tips-behavior-change",
+        "duration": "1:50",
+        "description": "A Stanford behavior-change playlist video on decision-making tools.",
+        "thumbnail": "",
+        "youtubeVideoId": "B2CUmjiaPW0",
+        "youtubeUrl": "https://www.youtube.com/watch?v=B2CUmjiaPW0",
+        "featured": true
+      },
+      {
+        "id": "bj-fogg-habits",
+        "title": "Behavioral scientist BJ Fogg on building lasting habits",
+        "slug": "bj-fogg-building-lasting-habits",
+        "category": "Behavior Change",
+        "playlistId": "expert-tips-behavior-change",
+        "duration": "2:20",
+        "description": "A Stanford behavior-change playlist video on building lasting habits.",
+        "thumbnail": "",
+        "youtubeVideoId": "h35hy4LcVFw",
+        "youtubeUrl": "https://www.youtube.com/watch?v=h35hy4LcVFw",
+        "featured": true
+      }
+    ],
+    "sourceChannel": {
+      "name": "Stanford",
+      "url": "https://www.youtube.com/@stanford",
+      "notice": "Public playlist and video examples from Stanford’s YouTube channel. These are sample third-party materials and are not authored by Dr. Mehra."
+    }
+  },
+  "books": [
+    {
+      "id": "essentials-human-physiology",
+      "title": "Essentials of Human Physiology",
+      "slug": "essentials-of-human-physiology",
+      "subtitle": "A Concept-Based Guide for Medical Students",
+      "year": 2025,
+      "edition": "2nd Edition",
+      "publisher": "Meridian Academic Press",
+      "description": "A comprehensive introduction to the principles of human physiology with diagrams, summaries and clinical correlations.",
+      "topics": [
+        "General Physiology",
+        "Cardiovascular",
+        "Respiratory",
+        "Renal",
+        "Endocrine"
+      ],
+      "coverImage": null,
+      "isbn": null,
+      "purchaseUrl": null,
+      "featured": true
+    },
+    {
+      "id": "clinical-physiology",
+      "title": "Clinical Physiology in Practice",
+      "slug": "clinical-physiology-in-practice",
+      "subtitle": "Understanding Concepts Through Clinical Cases",
+      "year": 2023,
+      "edition": "1st Edition",
+      "publisher": "Meridian Academic Press",
+      "description": "Case-based explanations connecting physiological mechanisms with clinical reasoning and real-world applications.",
+      "topics": [
+        "Clinical Reasoning",
+        "Case Studies",
+        "Applied Physiology"
+      ],
+      "coverImage": null,
+      "isbn": null,
+      "purchaseUrl": null,
+      "featured": true
+    },
+    {
+      "id": "neurophysiology-visual-notes",
+      "title": "Neurophysiology: Visual Notes",
+      "slug": "neurophysiology-visual-notes",
+      "subtitle": "Illustrated Learning for Medical Students",
+      "year": 2021,
+      "edition": "1st Edition",
+      "publisher": "North Valley Academic Publications",
+      "description": "An illustrated learning resource explaining neural pathways, sensory processing and motor functions.",
+      "topics": [
+        "Neurons",
+        "Reflexes",
+        "Sensory Systems",
+        "Motor Systems"
+      ],
+      "coverImage": null,
+      "isbn": null,
+      "purchaseUrl": null,
+      "featured": false
+    },
+    {
+      "id": "physiology-exam-companion",
+      "title": "The Physiology Exam Companion",
+      "slug": "physiology-exam-companion",
+      "subtitle": "Revision Notes and Practice Questions",
+      "year": 2018,
+      "edition": "1st Edition",
+      "publisher": "North Valley Academic Publications",
+      "description": "A focused revision resource featuring concise topic summaries, important questions and exam preparation guidance.",
+      "topics": [
+        "Exam Preparation",
+        "Revision",
+        "Practice Questions"
+      ],
+      "coverImage": null,
+      "isbn": null,
+      "purchaseUrl": null,
+      "featured": false
+    }
+  ],
+  "research": {
+    "totalPublications": 28,
+    "interests": [
+      "Medical Education",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Digital Learning",
+      "Curriculum Development"
+    ],
+    "publications": [
+      {
+        "id": "visual-learning-2025",
+        "title": "Visual Learning Strategies in Undergraduate Physiology Education",
+        "slug": "visual-learning-strategies",
+        "authors": [
+          "Ananya Mehra",
+          "Ritika Sethi"
+        ],
+        "year": 2025,
+        "journal": "Journal of Contemporary Medical Teaching (Fictional)",
+        "category": "Medical Education",
+        "abstract": "This illustrative study explores the role of visual learning tools in improving conceptual understanding among undergraduate medical students.",
+        "doi": null,
+        "externalUrl": null,
+        "featured": true
+      },
+      {
+        "id": "case-based-2024",
+        "title": "Case-Based Learning in Cardiovascular Physiology",
+        "slug": "case-based-learning-cardiovascular",
+        "authors": [
+          "Ananya Mehra",
+          "Kabir Anand"
+        ],
+        "year": 2024,
+        "journal": "Academic Physiology Review (Fictional)",
+        "category": "Cardiovascular Physiology",
+        "abstract": "This fictional publication examines how case-based learning activities may support the application of cardiovascular physiology concepts.",
+        "doi": null,
+        "externalUrl": null,
+        "featured": true
+      },
+      {
+        "id": "digital-microlectures-2023",
+        "title": "Digital Microlectures and Self-Paced Learning Among Medical Students",
+        "slug": "digital-microlectures",
+        "authors": [
+          "Ananya Mehra",
+          "Neha Kapoor"
+        ],
+        "year": 2023,
+        "journal": "International Review of Medical Learning (Fictional)",
+        "category": "Digital Learning",
+        "abstract": "An illustrative discussion of short-form digital lectures and their potential role in self-paced medical education.",
+        "doi": null,
+        "externalUrl": null,
+        "featured": false
+      },
+      {
+        "id": "concept-mapping-2022",
+        "title": "Concept Mapping as a Tool for Teaching Neurophysiology",
+        "slug": "concept-mapping-neurophysiology",
+        "authors": [
+          "Ananya Mehra",
+          "Arjun Rao"
+        ],
+        "year": 2022,
+        "journal": "Medical Education Innovations (Fictional)",
+        "category": "Neurophysiology",
+        "abstract": "This fictional article explores concept mapping as a teaching approach for organizing complex neurophysiology topics.",
+        "doi": null,
+        "externalUrl": null,
+        "featured": false
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "id": "education-award-2025",
+      "title": "Excellence in Medical Education Award",
+      "year": 2025,
+      "category": "Award",
+      "organization": "Meridian Academic Forum",
+      "description": "Fictional recognition for innovative approaches to physiology education.",
+      "image": "/images/achievements/education-award.jpg",
+      "featured": true
+    },
+    {
+      "id": "keynote-2024",
+      "title": "Keynote Speaker — Future of Medical Learning",
+      "year": 2024,
+      "category": "Conference",
+      "organization": "National Medical Learning Summit",
+      "description": "Fictional keynote presentation on blended and digital learning.",
+      "image": "/images/achievements/keynote.jpg",
+      "featured": true
+    },
+    {
+      "id": "initiative-2022",
+      "title": "Founded Physiology Simplified",
+      "year": 2022,
+      "category": "Educational Initiative",
+      "organization": "Physiology Simplified",
+      "description": "Established a fictional initiative focused on accessible medical education.",
+      "image": "/images/achievements/initiative.jpg",
+      "featured": true
+    },
+    {
+      "id": "faculty-mentor-2020",
+      "title": "Outstanding Faculty Mentor Recognition",
+      "year": 2020,
+      "category": "Recognition",
+      "organization": "Meridian Medical Institute",
+      "description": "Fictional recognition for undergraduate student mentoring.",
+      "image": "/images/achievements/mentor.jpg",
+      "featured": false
+    }
+  ],
+  "contact": {
+    "heading": "Let's Connect",
+    "description": "For academic collaboration, teaching inquiries, books, publications and general professional communication.",
+    "email": null,
+    "phone": null,
+    "location": "New Delhi, India",
+    "googleFormUrl": null,
+    "googleFormEmbedUrl": null,
+    "inquiryCategories": [
+      "Medical / Professional",
+      "Teaching / Educational",
+      "Books / Publications",
+      "Academic Collaboration",
+      "General Inquiry"
+    ],
+    "requiredFields": [
+      "fullName",
+      "email",
+      "category",
+      "subject",
+      "message",
+      "consent"
+    ],
+    "optionalFields": [
+      "phone"
+    ],
+    "medicalDisclaimer": "This form is for general professional inquiries only. Do not submit medical emergencies, patient records or sensitive health information.",
+    "demoMode": true
+  },
+  "socialLinks": [
+    {
+      "platform": "YouTube",
+      "url": null,
+      "icon": "youtube"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": null,
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Google Scholar",
+      "url": null,
+      "icon": "graduation-cap"
+    },
+    {
+      "platform": "ORCID",
+      "url": null,
+      "icon": "book-open"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where can I find the educational lectures?",
+      "answer": "Explore the Teaching section for organized physiology lecture series and individual video resources."
+    },
+    {
+      "question": "Are the lectures free to access?",
+      "answer": "The prototype represents publicly accessible educational lecture collections. Actual video availability will depend on the final YouTube links."
+    },
+    {
+      "question": "How can I inquire about books?",
+      "answer": "Use the Contact section and select Books / Publications as your inquiry category."
+    },
+    {
+      "question": "Can academic institutions request guest lectures?",
+      "answer": "Yes. Select Academic Collaboration in the inquiry form to send a professional request."
+    },
+    {
+      "question": "Can I contact the doctor for medical emergencies?",
+      "answer": "No. This website's inquiry form is not intended for emergencies, patient records or personal medical consultations."
+    }
+  ],
+  "seo": {
+    "title": "Dr. Ananya Mehra | Medical Educator, Professor and Author",
+    "description": "Explore the fictional academic portfolio of Dr. Ananya Mehra, including medical lectures, books, research and professional achievements.",
+    "keywords": [
+      "medical educator",
+      "human physiology",
+      "medical teaching",
+      "physiology lectures",
+      "medical research",
+      "medical books"
+    ],
+    "robots": "noindex, nofollow",
+    "canonicalUrl": null,
+    "ogImage": "/images/doctor/hero.jpg"
+  }
+}
