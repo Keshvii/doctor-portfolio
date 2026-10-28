@@ -1,8 +1,32 @@
-import { assetPath } from '@/data/portfolio';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowDown, Orbit, Sparkles } from 'lucide-react';
-import { portfolio as d } from '@/data/portfolio';
+import { ArrowUpRight, MapPin } from 'lucide-react';
+import { assetPath, portfolio as d } from '@/data/portfolio';
+import { pagePath } from '@/lib/routes';
 import { About, Achievements, Books, Contact, Stats, Teaching } from '@/components/Sections';
-export function DemoThree(){return <div className="design design-3"><section className="hero hero-three"><div className="three-note"><Sparkles size={14}/> A LIFE IN THE MAKING</div><div className="three-title"><span>SCIENCE / STORY / STUDENT</span><h1>Knowledge<br/>with <em>feeling.</em></h1><p>Dr. Siraj Ahmad<br/>Pharmacology faculty · Medical educator · Author</p><Link href="#about" className="three-down">ENTER THE PORTFOLIO <ArrowDown size={15}/></Link></div><div className="three-portrait"><span className="portrait-circle circle-a"/><span className="portrait-circle circle-b"/><Image src={assetPath(d.profile.heroImage)} width={147} height={196} alt="Dr. Siraj Ahmad, pharmacology educator" priority/><span className="portrait-stamp"><Orbit size={14}/> ALIGARH · INDIA</span></div><span className="three-margin-note">MBBS / MD (PHARMACOLOGY) · {d.profile.institution}</span><span className="hero-three-year">2026<br/>ACADEMIC<br/>PROFILE</span></section><div className="three-thesis"><span>01 / THE IDEA</span><p>{d.profile.personalStatement}</p><span>SIRAJ AHMAD · TEACHING APPROACH</span></div><Stats/><About design="3"/><Books design="3"/><Teaching design="3"/><Achievements design="3"/><Contact design="3"/></div>}
 
+export function DemoThree() {
+  return <div className="design design-3">
+    <section className="demo3-hero">
+      <div className="section-inner demo3-hero-grid">
+        <div className="demo3-hero-copy">
+          <p className="eyebrow">PHARMACOLOGY / MEDICAL EDUCATION</p>
+          <h1>Knowledge<br/>with <em>feeling.</em></h1>
+          <p className="demo3-name">Dr. Siraj Ahmad</p>
+          <p className="demo3-hero-description">Clear explanations, clinical connections and focused learning for aspiring doctors.</p>
+          <div className="demo3-hero-actions">
+            <Link className="action-link" href={pagePath('3', 'education')}>Explore educational material <ArrowUpRight size={16}/></Link>
+            <Link className="text-link" href={pagePath('3', 'about')}>About Dr. Siraj <ArrowUpRight size={15}/></Link>
+          </div>
+        </div>
+        <figure className="demo3-portrait">
+          <div className="demo3-photo"><Image src={assetPath(d.profile.heroImage)} width={600} height={600} alt="Dr. Siraj Ahmad, pharmacology educator" priority/></div>
+          <figcaption><span>MEDICAL EDUCATOR · AUTHOR · PHYSICIAN</span><strong>MBBS, MD (Pharmacology)</strong></figcaption>
+        </figure>
+        <div className="demo3-hero-meta"><span>PHARMACOLOGY FACULTY · {d.profile.institution}</span><span><MapPin size={13} aria-hidden="true"/>{d.profile.location}</span></div>
+      </div>
+    </section>
+    <div className="demo3-statement"><div className="section-inner"><span className="eyebrow">THE TEACHING APPROACH</span><p>{d.profile.personalStatement}</p></div></div>
+    <Stats/><Teaching design="3"/><About design="3"/><Books design="3"/><Achievements design="3"/><Contact design="3"/>
+  </div>;
+}
