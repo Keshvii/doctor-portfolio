@@ -1,42 +1,17 @@
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Instagram, Mail, Send, Stethoscope, Youtube } from 'lucide-react';
 import { portfolio } from '@/data/portfolio';
-
-const profiles = [
-  { key: 'youtube', label: 'YouTube', hosts: ['youtube.com', 'www.youtube.com', 'm.youtube.com'] },
-  { key: 'instagram', label: 'Instagram', hosts: ['instagram.com', 'www.instagram.com'] },
-  { key: 'twitter', label: 'X / Twitter', hosts: ['x.com', 'www.x.com', 'twitter.com', 'www.twitter.com'] },
-] as const;
-
-function validProfileUrl(value: string | null | undefined, hosts: readonly string[]) {
-  if (!value) return null;
-  try {
-    const url = new URL(value);
-    return url.protocol === 'https:' && hosts.includes(url.hostname.toLowerCase()) ? url.toString() : null;
-  } catch {
-    return null;
-  }
-}
-
-export function SocialLinks({ design }: { design: '1' | '2' | '3' }) {
-  const links = portfolio.profile.socialLinks;
-  return (
-    <div className={`profile-socials socials-${design}`} aria-label="Professional social profiles">
-      <span className="socials-heading">FIND DR. MEHRA ONLINE</span>
-      <div className="socials-list">
-        {profiles.map(({ key, label, hosts }) => {
-          const href = validProfileUrl(links[key], hosts);
-          const displayLabel = key === 'youtube' ? links.youtubeLabel || label : label;
-          return href ? (
-            <a key={key} href={href} target="_blank" rel="noopener noreferrer">
-              {displayLabel}<ArrowUpRight size={13} aria-hidden="true"/>
-            </a>
-          ) : (
-            <span key={key} className="social-pending" title={`${label} profile link will be added before launch`}>
-              {displayLabel}<small>link pending</small>
-            </span>
-          );
-        })}
-      </div>
-    </div>
-  );
+import type { Design } from '@/lib/routes';
+export function SocialLinks({ design }: { design: Design }) {
+  const profiles = portfolio.profile.socialLinks;
+  const links = [
+    { label: 'Email', href: `mailto:${portfolio.contact.email}`, Icon: Mail },
+    { label: 'YouTube', href: profiles.youtube, Icon: Youtube },
+    { label: 'Instagram', href: profiles.instagram, Icon: Instagram },
+    { label: 'PW MedEd · Telegram', href: profiles.telegram, Icon: Send },
+    { label: 'Practo', href: profiles.practo, Icon: Stethoscope },
+  ];
+  return <div className={`profile-socials socials-${design}`} aria-label="Dr. Siraj Ahmad’s professional links">
+    <span className="socials-heading">CONNECT WITH DR. SIRAJ</span>
+    <div className="socials-list">{links.map(({ label, href, Icon }) => <a key={label} href={href} {...(!href.startsWith('mailto:') ? {target: '_blank', rel: 'noopener noreferrer'} : {})}><Icon size={16} aria-hidden="true"/>{label}<ArrowUpRight size={12} aria-hidden="true"/></a>)}</div>
+  </div>;
 }

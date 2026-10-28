@@ -1,11 +1,10 @@
-function validGoogleForm(value: string | undefined, embed = false): string | null {
-  try {
-    const url = new URL(value || '');
-    if (url.protocol !== 'https:' || url.hostname !== 'docs.google.com') return null;
-    if (!/^\/forms\/(?:u\/\d+\/)?d\/e\/[^/]+\/viewform\/?$/.test(url.pathname)) return null;
-    if (embed && url.searchParams.get('embedded') !== 'true') return null;
-    return url.href;
-  } catch { return null; }
+export function inquiryEndpoint(email: string) {
+  return `https://formsubmit.co/ajax/${encodeURIComponent(email)}`;
 }
-export const formUrl = validGoogleForm(process.env.NEXT_PUBLIC_GOOGLE_FORM_URL);
-export const embedUrl = validGoogleForm(process.env.NEXT_PUBLIC_GOOGLE_FORM_EMBED_URL, true);
+export function classifyInquiryResponse(ok: boolean, value: unknown): 'accepted' | 'activation' | 'error' {
+  if (!value || typeof value !== 'object') return 'error';
+  const result = value as { success?: unknown; message?: unknown };
+  const message = typeof result.message === 'string' ? result.message : '';
+  if (/activat|confirm.{0,35}(email|address)|verif.{0,35}(email|address)|sent.{0,35}(link|confirmation)|check.{0,20}(inbox|email)/i.test(message)) return 'activation';
+  return ok && (result.success === true || result.success === 'true') ? 'accepted' : 'error';
+}
